@@ -2,8 +2,8 @@ package Sesudah;
 
 public class Main {
     public static void main(String[] args) {
-        StandardCinema standardCinema = new StandardCinema(100.0);
-        Double adminFee = standardCinema.calculateAdminFee();
+        CinemaMahasiswa mhsCinema = new CinemaMahasiswa(100.0);
+        Double adminFee = mhsCinema.calculateAdminFee();
         System.out.println(adminFee);
     }
 }
